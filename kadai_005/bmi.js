@@ -6,5 +6,8 @@ height = 1.7;
 let weight;
 weight = 68;
 
+let bmi;
+bmi = (weight / ( height * height ) );
+
 // コンソールへの出力
-console.log(weight / ( height * height ) );
+console.log(bmi);
